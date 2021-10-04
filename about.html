@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to LVCC's first hotel">
+    <meta name="keywords" content="hote,lvcc,pampanga">
+    <title>Hotel LVCC | About </title>
+        
+    <link rel="stylesheet" href="./css/style.css">
+<style>
+    
+#about-info {
+    padding: 25px;
+    /* Add some padding so its not compressed */
+}
+
+#about-info .info-left {
+    width:50%;
+    float: left;  
+    /* How do we arrainge two divs side-by-side again? */
+}
+
+#about-info .info-right {
+    width: 50%;
+    float: right;
+    text-align: center;
+    /* How do we arrainge two divs side-by-side again? */
+}
+
+#about-info .info-right img {
+    border-radius: 50%;
+    width: 50%;   
+    display: block;
+    margin: auto;
+    float: none;
+
+   
+    /* Perhaps a border radius is needed */
+    /* Add some width too */
+    /* To center the image, we make use of what css command? */
+}
+
+#testimonials {
+
+    background-image: url(img/test-bg.jpg);
+    height: auto;
+
+    /* Add background image here - test-bg.jpg */
+    /* Add some padding or height too */    
+}
+
+#testimonials .testimonal {    
+  padding: 20x;
+  margin: 20px;
+    /* Add some padding and marging here */    
+}
+
+#testimonials .testimonal img {
+
+    border-radius: 100%;
+    width: 100px;
+    float: left;
+    margin-right: 25px;
+
+    /* 1. Probably need a border radius to make a circle 
+       2. Add a width to make it smaller
+       3. How do you float the image to the left of the text? *hint*
+    */
+}
+
+#testimonials h2 {    
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    color: rgb(179, 241, 245);
+
+    /* Maybe align the text and add some padding or margin */
+}
+
+</style>
+</head>
+<body>
+    <!-- we will be using semantic tags  -->
+    <header>        
+        <nav id="navbar">
+            <div class="container">
+            <h1 class="logo"><a href="index.html">LVCC</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </nav>            
+    </header>
+
+    <section id="about-info" class="bg-light">
+        <div class="container">
+            <div class="info-left">
+                <h1 class="l-heading"><span class='text-primary'>About</span> Hotel LVCC</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero eius asperiores nulla deleniti, hic alias, porro itaque assumenda dicta error magnam perferendis in velit doloremque aliquam rem qui consectetur libero.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptas expedita, repellendus consequatur nisi quaerat hic aut aliquid quidem ducimus.</p>
+            </div>
+            <div class="info-right">
+                <img src="./img/photo-2.jpg" alt="hotel">
+            </div>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Guests Say</h2>
+            <div class="testimonal bg-primary">
+                <img src="./img/person-1.jpg" alt="p1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis amet fuga maxime recusandae modi fugiat quo, aspernatur sequi eligendi necessitatibus dolore, architecto sunt. Porro dolores optio quisquam error similique recusandae libero culpa exercitationem corrupti molestiae! Voluptatum magnam ullam voluptas alias?</p>
+            </div>
+
+            <div class="testimonal bg-primary">
+                <img src="./img/person-2.jpg" alt="p2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis amet fuga maxime recusandae modi fugiat quo, aspernatur sequi eligendi necessitatibus dolore, architecto sunt. Porro dolores optio quisquam error similique recusandae libero culpa exercitationem corrupti molestiae! Voluptatum magnam ullam voluptas alias?</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer id="main-footer">
+        <p>Hotel LVCC &copy; All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
